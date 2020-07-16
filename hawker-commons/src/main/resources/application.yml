@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    #   数据源基本配置
+    username: inst1
+    password: GhacInst1@2016
+    driver-class-name: com.ibm.db2.jcc.DB2Driver
+    url: jdbc:db2://10.110.37.229:50100/DMSSIT
+    type: com.alibaba.druid.pool.DruidDataSource
